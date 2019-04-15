@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
-  url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Lion_%28Panthera_leo%29_%2830941994012%29.jpg/1920px-Lion_%28Panthera_leo%29_%2830941994012%29.jpg';
+  photos = [
+    {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sultan_the_Barbary_Lion.jpg/440px-Sultan_the_Barbary_Lion.jpg',
+      description: 'Leão'
+    },
+    {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Lioness_Etosha_NP.jpg/500px-Lioness_Etosha_NP.jpg',
+      description: 'Leoa'
+    }
+  ];
 }
