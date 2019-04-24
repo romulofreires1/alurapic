@@ -31,6 +31,7 @@ export class PhotoListComponent implements OnInit {
   }
 
   load() {
+    this.filter = '';
     this.photoService
         .listFromUserPaginated(this.userName, ++this.currentPage)
         .subscribe(photos => {
